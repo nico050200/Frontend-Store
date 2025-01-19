@@ -153,6 +153,7 @@ h3 {
   }
 }
 
+
 /* Productos */
 .producto {
   background-color: var(--primarioOscuro);
@@ -195,6 +196,7 @@ h3 {
   }
 }
 
+
 /* Pagina del producto */
 @media (min-width: 768px) {
   .camisa {
@@ -226,5 +228,4 @@ h3 {
 .formulario__submit:hover {
   cursor: pointer;
   background-color: var(--secundarioOscuro);
-
 }

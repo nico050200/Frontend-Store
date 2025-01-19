@@ -1,36 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="icon" type="image/png" href="image/Icon.png">  
-  <title>Frontend Store</title>
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="image/Icon.png">  
+    <title>Nosotros - Frontend Store</title>
 </head>
 <body>
-  <header class="header">
-    <a href="index.html">
-      <img class="header__logo" src="img/logo.png" alt="Logotipo">
-    </a>
-  </header>
+    <header class="header">
+        <a href="index.html">
+        <img class="header__logo" src="img/logo.png" alt="Logotipo">
+        </a>
+</header>
 
-  <nav class="navegacion">
-    <a class="navegacion__enlace" href="index.html">Tienda</a>
-    <a class="navegacion__enlace navegacion__enlace--activo" href="nosotros.html">Nosotros</a>
-  </nav>
+    <nav class="navegacion">
+        <a class="navegacion__enlace" href="index.html">Tienda</a>
+        <a class="navegacion__enlace navegacion__enlace--activo" href="nosotros.html">Nosotros</a>
+    </nav>
 
-  <main class="contenedor">
-    <h1>Nosotros</h1>
-  </main>
+    <main class="contenedor">
+        <h1>Sobre Nosotros</h1>
 
-  <footer class="footer">
-    <p class="footer__texto">Front End Store - Todos los derechos Reservados 2025.</p>
-  </footer>
+        <div class="nosotros">
+            <p class="nosotros__texto">
+                Aqui iría un texto que describa a la tienda Frontend Store, dependiendo de lo que el cliente quiera o ya proporcione. <br> 
+                No es una tienda real, simplemente es un boceto genérico para mi propio proyecto en mi portafolio, haciendo uso de HTML y CSS.
+            </p>
+            <div class="nosotros__img">
+                <img src="img/nosotros.jpg" alt="Nosotros">
+            </div>
+        </div>
+    </main>
+
+    <section class="contenedor comprar">
+        <h2>¿Por qué comprar con nosotros?</h2>
+        <div class="bloques">    
+            <div class="bloque">
+            <img class="bloque__img" src="img/icono_1.png" alt="">
+                <h3>El mejor precio</h3>
+                <p>Tenemos los mejores precios del país.</p>
+            </div>
+
+            <div class="bloque">
+                <img class="bloque__img" src="img/icono_2.png" alt="">
+                <h3>Para DEVS</h3>
+                <p>Profecionalismo ante todo.</p>
+            </div>
+
+            <div class="bloque">
+                <img class="bloque__img" src="img/icono_3.png" alt="">
+                <h3>Envíos gratis</h3>
+                <p>Nos hacemos cargo del envío, tu solo disfruta.</p>
+            </div>
+
+            <div class="bloque">
+                <img class="bloque__img" src="img/icono_4.png" alt="">
+                <h3>La mejor calidad</h3>
+                <p>Productos con calidad 100% garantizada.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer__texto">
+            Front End Store - Todos los derechos Reservados 2025.
+        </p>
+    </footer>
 
 </body>
 </html>

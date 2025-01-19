@@ -10,6 +10,7 @@
   --fuentePrincipal: "Staatliches", serif;
 }
 
+
 /* Ajustes generales */
 html {
   font-size: 62.5%;
@@ -52,7 +53,9 @@ h2 {
 }
 h3 {
   font-size: 2.4rem;
+  margin: 0;
 }
+
 
 /* Header */
 .header {
@@ -62,6 +65,7 @@ h3 {
 .header__logo {
   margin: 3rem 0;
 }
+
 
 /* Navegacion */
 .navegacion {
@@ -84,6 +88,7 @@ h3 {
   color: var(--secundario);
 }
 
+
 /* Footer */
 .footer {
   background-color: var(--primarioOscuro);
@@ -96,6 +101,7 @@ h3 {
   font-size: 2rem;
 }
 
+
 /* Grid */
 .grid {
   display: grid;
@@ -105,6 +111,46 @@ h3 {
 @media (min-width: 768px) {
   .grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+
+/* Grid2 */
+.nosotros {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.nosotros__texto {
+  padding: 0 1rem;
+}
+@media (max-width: 768px) {
+  .nosotros {
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+  .nosotros__img {
+    grid-row: 1 / 2;
+    width: 100%;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .nosotros__texto {
+    padding: 0 11rem;
+  }
+}
+
+
+/* Grid3 */
+.bloques {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.bloque__cualidades {
+  text-align: center;
+}
+@media (max-width: 480px) {
+  .bloques {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -131,7 +177,8 @@ h3 {
   line-height: 1.2;
 }
 
-/* Gradicos */
+
+/* Graficos */
 .grafico {
   min-height: 30rem;
   background-repeat: no-repeat;
@@ -151,4 +198,3 @@ h3 {
     grid-column: 2 / 4;
   }
 }
-
